@@ -301,10 +301,10 @@ color: #ffffff;
   .grid{
     padding: 10px;
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 30px;
     justify-content: center;
-    margin: 100px 20px 0px 20px;
-    grid-template-columns:  repeat(1,1fr);
+    margin: 30px 10px 0px 10px;
+    grid-template-columns: repeat(1, 300px);
    }
    .col{
     justify-content: center;
@@ -312,14 +312,18 @@ color: #ffffff;
 
    img{
     display: block;
-    max-width:80vh;
-    height:auto;
+    width: 100vh;
+    height: auto;
     }
     h3{
-      font-size: 45px;
+      font-size: 18px;
     }
     .menu li a:after {
       display: none;
     }
+    .wrapper {
+      min-width:auto;
+      min-height: auto;
+      background: rgb(0, 0, 0);
+    }
 }
-
