@@ -303,8 +303,8 @@ margin: 5px;
     display: grid;
     grid-gap: 30px;
     justify-content: center;
-    margin: 30px 50px 0px 50px;
-    grid-template-columns: repeat(1, 500px);
+    margin: 30px 10px 0px 10px;
+    grid-template-columns: repeat(1, 300px);
    }
    .col{
     justify-content: center;
