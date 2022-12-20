@@ -305,6 +305,7 @@ color: #ffffff;
     justify-content: center;
     margin: 30px 10px 0px 10px;
     grid-template-columns: repeat(1, 300px);
+    grid-template-columns:minmax(300px,450px)
    }
    .col{
     justify-content: center;
