@@ -301,10 +301,10 @@ margin: 5px;
   .grid{
     padding: 10px;
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 30px;
     justify-content: center;
-    margin: 100px 20px 0px 20px;
-    grid-template-columns:  repeat(1,1fr);
+    margin: 30px 50px 0px 50px;
+    grid-template-columns: repeat(1, 500px);
    }
    .col{
     justify-content: center;
@@ -313,13 +313,18 @@ margin: 5px;
    img{
     display: block;
     width: 100vh;
-    height:auto;
+    height: auto;
     }
     h3{
       font-size: 18px;
     }
     .menu li a:after {
       display: none;
+    }
+    .wrapper {
+      min-width:auto;
+      min-height: auto;
+      background: rgb(0, 0, 0);
     }
 }
 
