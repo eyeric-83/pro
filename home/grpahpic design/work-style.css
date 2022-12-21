@@ -128,7 +128,8 @@ background: linear-gradient(90deg, rgba(255,132,0,1) 0%, rgba(255,235,0,1) 100%)
   
   mix-blend-mode: screen;
   opacity: 1;
-  height: 5px;
+	height: 7px;
+z-index: 2;
   width: 0;
   left: 0;
   bottom: 25px;
