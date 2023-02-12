@@ -257,7 +257,7 @@ position: relative;
         
                         ul li{
                             float:none;
-                            text-align:center;
+                            text-align:end;
                             font-size: 15px;
                             padding-bottom: 3px;
                             font-family: Arial, Helvetica, sans-serif;
