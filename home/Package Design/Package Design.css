@@ -174,20 +174,20 @@ grid-template-columns:  repeat(3,1fr);
 .col{
 
 margin-bottom: 0px;
-padding: 10px;
-border-radius: 30px;
+padding: 10px 10px 25px 10px;
 
 }
 
 img{
+border-radius: 30px;
 display: block;
 max-width:100%;
 height:auto;
 }
 .col h3{
 color: #ffffff;
+margin: 5px;
 }
-
 
 
 
@@ -261,7 +261,6 @@ color: #ffffff;
   .menu li a {
     border-bottom: 0px solid #ffffff;  
   }
-  
 }
 
 @media screen and (max-width: 1024px) {
@@ -277,7 +276,7 @@ color: #ffffff;
     background-color: rgb(255, 208, 0);
     mix-blend-mode: screen;
     opacity: 1;
-    height: 6px;
+    height: 3px;
     width: 0;
     left: 0;
     bottom: 16px;
