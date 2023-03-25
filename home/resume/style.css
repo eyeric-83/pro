@@ -128,8 +128,12 @@ p{
   color: rgb(202, 202, 202);
 }
 .side {
-  height: 1600px;
-  background: rgba(40, 40, 40, 0.724);
+  height: 2000px;
+	
+background: -webkit-linear-gradient(90deg, rgba(183, 183, 183, 1), rgba(183, 183, 183, 0));
+background: linear-gradient(90deg, rgba(183, 183, 183, 1), rgba(183, 183, 183, 0));
+
+	
   position: absolute;
   top: 0;
   left: 20px;
